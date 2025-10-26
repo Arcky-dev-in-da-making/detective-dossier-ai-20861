@@ -3,6 +3,13 @@ import rajSharmaImg from '@/assets/raj-sharma.jpg';
 import sitaSharmaImg from '@/assets/sita-sharma.jpg';
 import vikSharmaImg from '@/assets/vik-sharma.jpg';
 import mohanSharmaImg from '@/assets/mohan-sharma.jpg';
+import marcusSterlingImg from '@/assets/marcus-sterling.jpg';
+import dianaFrostImg from '@/assets/diana-frost.jpg';
+import vincentKaneImg from '@/assets/vincent-kane.jpg';
+import anjaliSinhaImg from '@/assets/anjali-sinha.jpg';
+import rohanVarmaImg from '@/assets/rohan-varma.jpg';
+import arjunMehraImg from '@/assets/arjun-mehra.jpg';
+import priyaDeshpandeImg from '@/assets/priya-deshpande.jpg';
 
 export const mysteryCase: CaseData = {
   title: "The Case of the Silent Starlet",
@@ -13,7 +20,7 @@ export const mysteryCase: CaseData = {
       name: "Marcus Sterling",
       role: "Business Partner",
       bio: "Victoria's business partner and co-producer of the show. They had a complicated financial relationship.",
-      image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&h=400&fit=crop",
+      image: marcusSterlingImg,
       questionsRemaining: 3
     },
     {
@@ -21,7 +28,7 @@ export const mysteryCase: CaseData = {
       name: "Diana Frost",
       role: "Understudy",
       bio: "The ambitious understudy who would inherit Victoria's starring role. Known to be jealous of Victoria's success.",
-      image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=400&fit=crop",
+      image: dianaFrostImg,
       questionsRemaining: 3
     },
     {
@@ -29,7 +36,7 @@ export const mysteryCase: CaseData = {
       name: "Vincent Kane",
       role: "Ex-Husband",
       bio: "Victoria's ex-husband, a theatrical director. Their divorce was messy and involved a bitter custody battle.",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop",
+      image: vincentKaneImg,
       questionsRemaining: 3
     }
   ],
@@ -45,7 +52,7 @@ export const househelpCase: CaseData = {
       name: "Anjali Sinha",
       role: "Volatile Fiancée",
       bio: "Set to inherit a fortune but lived in constant fear. Desperate to escape Ashwin's psychological control and the dark artifact he possessed.",
-      image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&h=400&fit=crop",
+      image: anjaliSinhaImg,
       questionsRemaining: 3
     },
     {
@@ -53,7 +60,7 @@ export const househelpCase: CaseData = {
       name: "Rohan Varma",
       role: "Struggling Artist",
       bio: "Driven by vengeance after Ashwin ruined his career by stealing his art. Believes a cursed artwork is responsible for his misfortunes.",
-      image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop",
+      image: rohanVarmaImg,
       questionsRemaining: 3
     },
     {
@@ -61,7 +68,7 @@ export const househelpCase: CaseData = {
       name: "Arjun Mehra",
       role: "Duplicitous Partner",
       bio: "Business partner on the brink of ruin. Ashwin was about to expose his massive financial fraud and ties to a secret society.",
-      image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&h=400&fit=crop",
+      image: arjunMehraImg,
       questionsRemaining: 3
     },
     {
@@ -69,7 +76,7 @@ export const househelpCase: CaseData = {
       name: "Priya Deshpande",
       role: "Secretive Housekeeper",
       bio: "Has intimate knowledge of the house and its secrets. Years of blackmail by Ashwin over a tragic secret kept her enslaved.",
-      image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=400&fit=crop",
+      image: priyaDeshpandeImg,
       questionsRemaining: 3
     }
   ],
